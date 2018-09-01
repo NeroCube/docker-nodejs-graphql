@@ -1,0 +1,8 @@
+
+version: "3"
+services:
+  express-service:
+    restart: "always"
+    build: ./api
+    ports:
+      - "4000:4000"
